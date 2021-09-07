@@ -18,7 +18,7 @@ print('tx count:', w3.eth.get_transaction_count(wallet_addr))
 nft_set = retrieve_nft(wallet_addr)
 print('You have', len(nft_set), 'characters')
 
-filter_nft_adventure(rm, nft_set, w3)
+filter_nft_adventure(rm, nft_set)
 print(len(nft_set), 'can adventure()')
 
 input('press enter to start adventure()')
